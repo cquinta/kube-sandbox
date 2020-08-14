@@ -1,0 +1,2 @@
+- name: Installing Istio
+  shell: /home/vagrant/istio/install_istio.sh 
