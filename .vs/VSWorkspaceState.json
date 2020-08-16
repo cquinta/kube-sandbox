@@ -1,8 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\scripts"
+    ""
   ],
-  "SelectedNode": "\\scripts\\install_ansible.sh",
+  "SelectedNode": "\\Vagrantfile",
   "PreviewInSolutionExplorer": false
 }
