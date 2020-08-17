@@ -71,6 +71,7 @@ Vagrant.configure("2") do |config|
     engine.vm.box = "hashicorp/bionic64"
     engine.vm.provision "shell", privileged: false, path: "scripts/install_python.sh"
     engine.vm.provision "shell", privileged: false, path: "scripts/install_ansible.sh"
+    engine.vm.provision "shell", privileged: false, path: "scripts/install_metrics.sh"
     engine.vm.network :private_network, ip: "192.168.50.110", auto_config: true
     engine.vm.synced_folder "ansible/", "/home/vagrant/ansible"
     engine.vm.synced_folder "istio/istio-1.6.0", "/home/vagrant/istio"

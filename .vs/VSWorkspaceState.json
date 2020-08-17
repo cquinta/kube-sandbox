@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\ansible",
+    "\\ansible\\playbooks",
+    "\\ansible\\playbooks\\roles",
     "\\scripts"
   ],
-  "SelectedNode": "\\scripts\\install_ansible.sh",
   "PreviewInSolutionExplorer": false
 }
