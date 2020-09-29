@@ -1,9 +1,11 @@
-Cria através do vagrant e do Virtual box um cluster kubernetes simples com 1 master e dois nodes para treinamento.
+Cria atravÃ©s do vagrant e do Virtual box um cluster kubernetes simples com 1 master e dois nodes para treinamento.
 Foi testado em SO Windows 10. 
-A instalação é feita como o kubeadm e automatizada através do ansible
+A instalaÃ§Ã£o Ã© feita como o kubeadm e automatizada atravÃ©s do ansible
 
 Pre-requisitos:
 
 * Vagrant 
 * Virtual Box
+
+Caso seja utilizado apenas o ansible, Ã© necessÃ¡rio ajustar os IPÂ´s em playbooks/roles/group_vars
 
