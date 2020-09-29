@@ -7,5 +7,5 @@ Pre-requisitos:
 * Vagrant 
 * Virtual Box
 
-Caso seja utilizado apenas o ansible, é necessário ajustar os IP´s em playbooks/roles/group_vars
+Caso seja utilizado apenas o ansible, é necessário ajustar os IP´s em ./ansible/playbooks/group_vars
 
