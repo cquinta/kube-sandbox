@@ -1,0 +1,54 @@
+Criar um deploy
+kubectl create deploy webserver --image=nginx
+
+Verificar o pod 
+
+
+Verficiar o Container " Sem ser o pause" 
+
+Verificar o ID do processo de saida do container
+
+docker inspect --format '{{ .State.Pid }}' container-id-or-name
+
+Verificar a interface do pod 
+
+nsenter -t pid-do-seu-container -n ip addr
+
+Verificar o número depois do @  procurar no ip addr a interface com o número
+
+
+Dar tcpdump na mesma
+
+conntrack -L
+conntrack -E
+conntrack -L -d ip-de-destino
+
+Criar um servico ClusterIP
+
+ kubectl expose deployment webserver --port=80 --target-port=80
+
+
+Mostrar o nome do serviço : 
+
+kubectl run dnshelp --image=busybox:1.28 -- sleep 3600
+
+kubectl exec dnshelp -it -- nslookup webserver
+kubectl exec dnshelp -it -- nslookup IP do Pod
+
+Transformar o serviço em nodeport
+
+mostrar o acesso 
+
+
+IPTables
+
+dump das regras iptables-save > output.txt
+
+listar regras do kubernetes iptables -t nat -L KUBE-SERVICES
+
+Instalar o ingress Controller
+checar: kubectl get pods --namespace=nginx-ingress
+
+ir para exemplo, complete-example e criar 
+
+kubectl create -f cafe.yaml

@@ -1,1 +1,0 @@
-{"virtualbox":{"/home/vagrant/istio":{"guestpath":"/home/vagrant/istio","hostpath":"C:/Users/cquin/projetos/kubernetes/kube-sandbox/istio/istio-1.6.0","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/cquin/projetos/kubernetes/kube-sandbox","disabled":false,"__vagrantfile":true}}}
